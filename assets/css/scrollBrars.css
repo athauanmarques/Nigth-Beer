@@ -1,0 +1,40 @@
+
+
+.scrollbar-purple::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #250321;
+  border-radius: 10px; }
+
+.scrollbar-purple::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent; }
+
+.scrollbar-purple::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #601A58;
+
+  border: solid 1px rgba(255, 255, 255, 0.72);
+  color: rgba(255,255,255,1);
+  box-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 0px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 10px #ff00de , 0 0 15px #ff00de , 0 0 20px #ff00de , 0 0 30px #ff00de ;
+  
+   }
+
+.bordered-purple::-webkit-scrollbar-track {
+ -webkit-box-shadow: none;
+ border: 1px solid #601A58;
+  
+  }
+
+.bordered-purple::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none; }
+
+.square::-webkit-scrollbar-track {
+  border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+  border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+  width: 6px; }
+
